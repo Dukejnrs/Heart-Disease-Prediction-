@@ -1,0 +1,9 @@
+#### 2. **Update `.gitignore`**
+Add this to your `.gitignore`:
+
+```gitignore
+# Ignore everything in data folder
+data/*
+
+# But keep README.md
+!data/README.md
